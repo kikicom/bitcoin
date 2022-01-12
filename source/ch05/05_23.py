@@ -31,6 +31,7 @@ class MyWindow(QMainWindow, form_class):
         return price, last_ma5, state
 
     def timeout(self):
+        print("5초지남")
         for i, ticker in enumerate(tickers):
             item = QTableWidgetItem(ticker)
             self.tableWidget.setItem(i, 0, item)

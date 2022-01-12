@@ -1,2 +1,10 @@
 pip install PyQt5
 pip install pykorbit
+pip install requests
+pip install BeautifulSoup4
+pip install html5lib
+
+pip install pybithumb
+
+
+pip install lxml
